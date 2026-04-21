@@ -24,29 +24,27 @@ House prices depend on multiple factors such as area, number of bedrooms, bathro
 
 This project aims to:
 
-\- Analyze housing data
+- Analyze housing data
 
-\- Identify key factors affecting price
+- Identify key factors affecting price
 
-\- Build a predictive machine learning model
+- Build a predictive machine learning model
 
-\- Provide a user-friendly web interface for predictions
-
-
-
-\---
+- Provide a user-friendly web interface for predictions
 
 
 
-\## 📊 Model Performance
+---
 
 
 
-\- 🤖 Best Model: Random Forest Regressor  
+### 📊 Model Performance
 
-\- 📈 R² Score: 0.XX (update with your value)  
 
-\- 📉 Mean Absolute Error (MAE): XX.XX (update with your value)  
+
+- 🤖 Best Model: Random Forest Regressor 
+- 📈 R² Score: 0.6529242642153184970043.403920164
+- XX.XX (update with your value)  
 
 
 
@@ -54,115 +52,115 @@ This project aims to:
 
 
 
-\---
+---
 
 
 
-\## 🧠 How the Model Works
+### 🧠 How the Model Works
 
 
 
-\- The model uses a \*\*Random Forest Regressor\*\*, which is an ensemble of multiple decision trees.
+- The model uses a \*\*Random Forest Regressor\*\*, which is an ensemble of multiple decision trees.
 
-\- Each tree predicts a house price independently.
+- Each tree predicts a house price independently.
 
-\- The final prediction is obtained by averaging all tree outputs.
+- The final prediction is obtained by averaging all tree outputs.
 
-\- This improves accuracy and reduces overfitting.
-
-
-
-\---
+- This improves accuracy and reduces overfitting.
 
 
 
-\## 📂 Dataset Information
+---
+
+
+
+### 📂 Dataset Information
 
 The dataset contains housing attributes such as:
 
 
 
-\- Area
+- Area
 
-\- Number of bedrooms
+- Number of bedrooms
 
-\- Number of bathrooms
+- Number of bathrooms
 
-\- Stories
+- Stories
 
-\- Parking
+- Parking
 
-\- Furnishing status
+- Furnishing status
 
-\- Air conditioning
+- Air conditioning
 
-\- Guestroom
+- Guestroom
 
-\- Basement
+- Basement
 
-\- Price (target variable)
-
-
-
-\---
+- Price (target variable)
 
 
 
-\## ⚙️ Project Workflow
+---
 
 
 
-\### 1. Data Collection
-
-\- Loaded dataset using Pandas
+### ⚙️ Project Workflow
 
 
 
-\### 2. Data Preprocessing
+#### 1. Data Collection
 
-\- Handled missing values
-
-\- Converted categorical variables using One-Hot Encoding
-
-\- Feature selection
+- Loaded dataset using Pandas
 
 
 
-\### 3. Exploratory Data Analysis (EDA)
+#### 2. Data Preprocessing
 
-\- Visualized relationships between features and price
+- Handled missing values
 
-\- Identified key influencing factors
+- Converted categorical variables using One-Hot Encoding
 
-
-
-\### 4. Model Training
-
-\- Random Forest Regressor
-
-\- Trained on processed dataset
+- Feature selection
 
 
 
-\### 5. Model Evaluation
+#### 3. Exploratory Data Analysis (EDA)
 
-\- R² Score
+- Visualized relationships between features and price
 
-\- Mean Absolute Error (MAE)
-
-
-
-\### 6. Deployment
-
-\- Built interactive web app using Streamlit
+- Identified key influencing factors
 
 
 
-\---
+#### 4. Model Training
+
+- Random Forest Regressor
+
+- Trained on processed dataset
 
 
 
-\## 🚀 Streamlit Web App
+#### 5. Model Evaluation
+
+- R² Score
+
+- Mean Absolute Error (MAE)
+
+
+
+#### 6. Deployment
+
+- Built interactive web app using Streamlit
+
+
+
+---
+
+
+
+### 🚀 Streamlit Web App
 
 
 
@@ -170,7 +168,7 @@ This project includes an interactive web application where users can input house
 
 
 
-\### ▶️ How to Run Locally
+### ▶️ How to Run Locally
 
 
 
@@ -180,39 +178,39 @@ streamlit run app.py
 
 
 
-\### 🎯 Features
+### 🎯 Features
 
 
 
-User-friendly interface
+- User-friendly interface
 
-Real-time predictions
+- Real-time predictions
 
-Dropdowns for categorical inputs
+- Dropdowns for categorical inputs
 
-Numeric inputs for house features
-
-
-
-\### 🛠️ Technologies Used
+- Numeric inputs for house features
 
 
 
-Python 🐍
-
-Pandas \& NumPy
-
-Scikit-learn
-
-Matplotlib \& Seaborn
-
-Streamlit
-
-Joblib
+### 🛠️ Technologies Used
 
 
 
-\### 📁 Project Structure
+- Python 🐍
+
+- Pandas \& NumPy
+
+- Scikit-learn
+
+- Matplotlib \& Seaborn
+
+- Streamlit
+
+- Joblib
+
+
+
+### 📁 Project Structure
 
 
 
@@ -242,37 +240,37 @@ house-price-prediction-ml/
 
 
 
-\### 📈 Key Insights
+### 📈 Key Insights
 
 
 
-House area is the most important factor affecting price
+- House area is the most important factor affecting price
 
-Furnishing status significantly impacts property value
+- Furnishing status significantly impacts property value
 
-Additional features like air conditioning and parking increase price
+- Additional features like air conditioning and parking increase price
 
-Random Forest performs better than Linear Regression for this dataset
-
-
-
-\### 🚀 Future Improvements
+- Random Forest performs better than Linear Regression for this dataset
 
 
 
-Hyperparameter tuning for better accuracy
-
-Try advanced models (XGBoost, Gradient Boosting)
-
-Deploy the Streamlit app online (Streamlit Cloud / Render)
-
-Add real-time database integration
-
-Improve UI with advanced design components
+### 🚀 Future Improvements
 
 
 
-\### 👩‍💻 Author
+- Hyperparameter tuning for better accuracy
+
+- Try advanced models (XGBoost, Gradient Boosting)
+
+- Deploy the Streamlit app online (Streamlit Cloud / Render)
+
+- Add real-time database integration
+
+- Improve UI with advanced design components
+
+
+
+### 👩‍💻 Author
 
 
 
@@ -290,7 +288,7 @@ LinkedIn: www.linkedin.com/in/methmi-weerathunga-47a121333
 
 
 
-\### ⭐ Acknowledgements
+### ⭐ Acknowledgements
 
 
 
