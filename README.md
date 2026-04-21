@@ -43,8 +43,8 @@ This project aims to:
 
 
 - 🤖 Best Model: Random Forest Regressor 
-- 📈 R² Score: 0.6529242642153184970043.403920164
-- XX.XX (update with your value)  
+- 📈 R² Score: 0.6529242642153184
+- 📉 Mean Absolute Error (MAE): 970043.403920164
 
 
 
