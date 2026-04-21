@@ -1,8 +1,8 @@
-\# 🏠 House Price Prediction using Machine Learning
+### 🏠 House Price Prediction using Machine Learning
 
 
 
-\## 📌 Project Overview
+### 📌 Project Overview
 
 This project is a Machine Learning-based web application that predicts house prices based on various property features. It demonstrates an end-to-end workflow including data preprocessing, exploratory data analysis (EDA), model training, evaluation, and deployment using Streamlit.
 
@@ -12,11 +12,11 @@ The goal is to build an intelligent system that can estimate house prices accura
 
 
 
-\---
+---
 
 
 
-\## 🎯 Problem Statement
+### 🎯 Problem Statement
 
 House prices depend on multiple factors such as area, number of bedrooms, bathrooms, furnishing status, and location-related features. Manual estimation can be inaccurate and inconsistent.
 
