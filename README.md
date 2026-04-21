@@ -168,10 +168,18 @@ This project includes an interactive web application where users can input house
 
 
 
+---
+
+
+
 ### ▶️ How to Run Locally
 
 
 streamlit run app.py
+
+
+
+---
 
 
 
@@ -186,6 +194,10 @@ streamlit run app.py
 - Dropdowns for categorical inputs
 
 - Numeric inputs for house features
+
+
+
+---
 
 
 
@@ -204,6 +216,10 @@ streamlit run app.py
 - Streamlit
 
 - Joblib
+
+
+
+---
 
 
 
@@ -235,6 +251,8 @@ house-price-prediction-ml/
 
 
 
+---
+
 
 
 ### 📈 Key Insights
@@ -248,6 +266,10 @@ house-price-prediction-ml/
 - Additional features like air conditioning and parking increase price
 
 - Random Forest performs better than Linear Regression for this dataset
+
+
+
+---
 
 
 
@@ -267,6 +289,10 @@ house-price-prediction-ml/
 
 
 
+---
+
+
+
 ### 👩‍💻 Author
 
 
@@ -282,6 +308,10 @@ GitHub: https://github.com/methmi2004
 
 
 LinkedIn: www.linkedin.com/in/methmi-weerathunga-47a121333
+
+
+
+---
 
 
 
