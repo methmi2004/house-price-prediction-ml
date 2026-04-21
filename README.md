@@ -171,9 +171,6 @@ This project includes an interactive web application where users can input house
 ### ▶️ How to Run Locally
 
 
-
-```bash
-
 streamlit run app.py
 
 
